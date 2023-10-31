@@ -1,0 +1,99 @@
+{
+    "title":"IGede Portofolio",
+    "name":"IGede Miarta",
+    "roles":"Backend Developer",
+    "summary":"Experienced PHP Web Developer with a demonstrated history of working in the professional IT industry. Skilled in PHP, Laravel Framework, MySQL, Version Control Git/Bitbucket. strong engineering professional with a S1 focused in Information Systems from Universitas Teknologi Yogyakarta and Constantly learning new things.",
+    "social":[
+        {
+            "name":"LinkedIn",
+            "mini":"In",
+            "url":"https://www.linkedin.com/in/igede-miarta/"
+        },
+        {
+            "name":"Github",
+            "mini":"Git",
+            "url":"https://github.com/IGedeMiarta"
+        },
+        {
+            "name":"Instagram",
+            "mini":"IG",
+            "url":"https://www.instagram.com/mrt.ys_/"
+        },
+        {
+            "name":"Whatsapp",
+            "mini":"WA",
+            "url":"https://wa.me/6281529963914"
+        }
+    ],
+    "project":[
+      {
+        "title":"Work Project - Izidok",
+        "as":"Fullstack Web Developer",
+        "com":"IZIDOK",
+        "res":"Adding a new feature to the existing system, using Vue.js as the frontend and Laravel as the backend.",
+        "date":"Sept 2023 - Okt 2023",
+        "img":"https://gcdnb.pbrd.co/images/6TRRXg4yfJIV.png?o=1",
+        "slug":"izidok-details",
+        "next":"masterplan",
+        "nextSlug":"masterplan-details"
+      },
+      {
+        "title":"Work Project - Masterplan",
+        "as":"Fullstack Web Developer",
+        "com":"Masterplan",
+        "res":"Working with the latest PHP web technologies such as Laravel 9. Building secure, reliable and scalable code that can be used across our platforms `masterplan.co.id` a micro gold investment platforms",
+        "date":"Mar 2023 - Okt 2023",
+        "img":"https://gcdnb.pbrd.co/images/uA6Rul9ijj3p.png?o=1",
+        "slug":"masterplan-details",
+        "next":"avatar",
+        "nextSlug":"avatar-details"
+
+      },
+      {
+        "title":"Work Project - Avatar",
+        "as":"Fullstack Web Developer",
+        "com":"Avatar Solutions",
+        "res":"with our product owners to scope, build, test and deploy new features and fixes across our projects and products. Develop web applications and mobile APIs, for mining applications Karangasem district government collaborates with Bank BPD Bali. Develop with PHP Laravel, Jquery, HTML, CSS & MYSQL",
+        "date":"Nov 2021 - Mar 2022",
+        "img":"https://gcdnb.pbrd.co/images/rUTtgWuVgzO2.png?o=1",
+        "slug":"avatar-details",
+        "next":"speedy",
+        "nextSlug":"speedy-details"
+      },
+      {
+        "title":"Work Project - Speedy",
+        "as":"PHP Web Developer",
+        "com":"Speedy Global",
+        "res":"Development & Mintenance Web, Adding features & fixing bugs on `speedy.global` web application",
+        "date":"Nov 2021 - Mar 2022",
+        "img":"https://gcdnb.pbrd.co/images/iKRQHQrDF495.png?o=1",
+        "slug":"speedy-details",
+        "next":"izidok",
+        "nextSlug":"izidok-details"
+      }
+    ],
+    "imageDetails": {
+        "izidok-details": [
+            {"url": "assets/img/izidok/iz1.png"},
+            {"url": "assets/img/izidok/iz2.png"},
+            {"url": "assets/img/izidok/iz3.png"}
+        ],
+        "masterplan-details": [
+            {"url": "assets/img/izidok/iz1.png"},
+            {"url": "assets/img/izidok/iz2.png"},
+            {"url": "assets/img/izidok/iz3.png"}
+        ],
+        "avatar-details": [
+            {"url": "assets/img/izidok/iz1.png"},
+            {"url": "assets/img/izidok/iz2.png"},
+            {"url": "assets/img/izidok/iz3.png"}
+        ],
+        "speedy-details": [
+            {"url": "assets/img/izidok/iz1.png"},
+            {"url": "assets/img/izidok/iz2.png"},
+            {"url": "assets/img/izidok/iz3.png"}
+        ]
+    }
+
+
+}

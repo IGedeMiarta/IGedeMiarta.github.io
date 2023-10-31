@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title id="title">-</title>
+    <title id="title"></title>
     <link rel="stylesheet" href="assets/css/plugin.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
@@ -25,9 +25,9 @@
     <div class="over-all"></div>
     <!-- End Preload -->
 
+
     <!-- Start Header -->
     <header>
-
         <nav>
             <!-- Logo -->
             <div class="logo hover-target">
@@ -42,7 +42,7 @@
                 </div>
             </div>
             <!-- Social -->
-             <div class="scr socials">
+            <div class="scr socials">
                 <div class="list-social">
                     <ul id="miniSocial">
                         <!-- looping hire -->
@@ -52,7 +52,7 @@
 
             <!-- Copyright -->
             <div class="scr copyright-top">
-                <p>IGede Miarta &copy; 2020</p>
+                 <p>IGede Miarta &copy; 2020</p>
             </div>
 
             <div class="bg-nav"></div>
@@ -114,90 +114,118 @@
         <div class="scrolls">
             <img draggable="false" src="assets/img/sroll.svg" alt="scroll">
         </div>
-        <div class="main-head">
+        <div class="main-head luxy-el" data-speed-y="15" data-offset="0">
             <div id="headmove">
-                <div data-depth="0.2">
-                    <div class="bg-right"></div>
+                <div data-depth="0.4">
+                    <div class="izidok-bg" id="izidok-bg"></div>
+                    <div class="masterplan-bg" id="masterplan-bg"></div>
+                    <div class="speedy-bg" id="speedy-bg"></div>
+                    <div class="avatar-bg" id="avatar-bg"></div>
                 </div>
             </div>
+
             <div class="heading-text">
                 <div class="heading-text-front">
-                    <h1>Hello. i am gede miarta, <br>
-                       a <span class="devRoles"></span>.</h1>
+                    <h2 class="projectTitle">IZIDOK</h2>
                 </div>
                 <div class="heading-text-back">
-                    <h1>Hello. i am gede miarta, <br>
-                       a <span class="devRoles"></span>.</h1>
+                    <h2 class="projectTitle">IZIDOK</h2>
                 </div>
             </div>
         </div>
 
-        <!-- About -->
-        <section class="about">
+        <!-- Work Content -->
+        <section class="detail-work bg-darks">
             <div class="container">
-                <div class="row centered">
-                    <div class="col-lg-7">
-                        <div class="img-about luxy-el" data-horizontal="1" data-speed-x="1">
-                            <img class="img-fluid" src="https://gcdnb.pbrd.co/images/WSmrFuA5HVvu.jpg?o=1" alt="">
-
+                <div class="row ">
+                    <div class="col-md-4 mt-30">
+                        <div class="about-work text-center">
+                            <h3>Company</h3>
+                            <p id="com">Texas, USA</p>
                         </div>
                     </div>
-                    <div class="col-lg-5">
-                        <div class="abt-text">
-                            <p id="summary">We create digital experiences, social media content, interactive
-                                concept, commercials, and branding assets for direct client or together with
-                                Agencies.
-
-                                With a wide set of skills and an extended network of specialists we function as
-                                a scalable and fully operative team.</p>
-                            <!-- <a class="hover-target load-spiral" href="about.html">Explore more</a> -->
+                    <div class="col-md-4 mt-30">
+                        <div class="about-work text-center">
+                            <h3>Dates</h3>
+                            <p id="date">2019</p>
                         </div>
-
                     </div>
+                    <div class="col-md-4 mt-30">
+                        <div class="about-work text-center">
+                            <h3>Service</h3>
+                            <p id="as">2019</p>
+                        </div>
+                    </div>
+
                 </div>
-            </div>
-        </section>
-       
 
-        <!-- Portfolio -->
+                <div class="row mt-20">
+                    <div class="col-md-12 mt-30">
 
-        <section class="folio-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="main-title text-center">
+                        <!-- next -->
+                        <div class="right-over-next cursorNext"> </div>
+                        <!-- prev -->
+                        <div class="right-over-prev cursorPrev"> </div>
 
-                            <h2>Professional <span>Studio</span></h2>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                       <div class="row">
-                            <!-- looping -->
-                            <div class="row" id="loopProject">
-                                <!-- Looping will be done here -->
+                        <!-- work-slider -->
+                        <div class="work-slider" id="izidokImg">
+                            <div class="owl-carousel owl-theme" id="workImages">
+                                <div class="img-item">
+                                    <img src="assets/img/detail-work/izidok/iz1.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="img-item">
+                                    <img src="assets/img/detail-work/izidok/iz2.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="img-item">
+                                    <img src="assets/img/detail-work/izidok/iz3.png" class="img-fluid" alt="">
+                                </div>
+                                
                             </div>
-                            <!-- end looping -->
-                       </div>
+                        </div>
+                        <div class="work-slider" id="masterImg">
+                            <div class="owl-carousel owl-theme" id="workImages">
+                                <div class="img-item">
+                                    <img src="assets/img/detail-work/masterplan/mp1.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="img-item">
+                                    <img src="assets/img/detail-work/masterplan/mp2.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="img-item">
+                                    <img src="assets/img/detail-work/masterplan/mp3.png" class="img-fluid" alt="">
+                                </div>
+                                
+                            </div>
+                        </div>
                     </div>
-                    
+                </div>
+
+                <div class="row about-work mt-50">
+                    <div class="col-md-3">
+                        <h3>Responsibility</h3>
+                    </div>
+                    <div class="col-md-8">
+                        <p id="res"> managed the brand strategy, UX, web design and motion. The result is ultimate online
+                            storytelling experience that create an emotional connection between the user, the brand and
+                            the product, improving the value of the product and ultimately, sales.</p>
+                        <div class="mt-10"></div>
+                        <!-- <a class="hover-target" href="https://www.behance.net/gallery/81535767/Smithy"
+                            target="_blank">see detail</a> -->
+                    </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-md-12" id="all-projects">
-                        <a href="work.html" class="next-project centered text-center load-spiral">
+                    <div class="col-md-12">
+                        <a id="href-slug" href="#" class="next-project centered text-center load-spiral">
                             <div class="col-md-12">
-                                <p>View</p>
-                                <h3>ALL PROJECTS</h3>
+                                <p >Next projects</p>
+                                <h3 id="nextProject" style="text-transform: uppercase;">IZIDOk</h3>
                             </div>
                         </a>
                     </div>
                 </div>
-
             </div>
         </section>
-        
 
-      
 
         <!-- Footer -->
         <div class="footer">
@@ -219,7 +247,7 @@
                                 <!-- Looping will be done here -->
                             </ul>
                         </div>
-                        <div class="copyright">
+                       <div class="copyright">
                             <p>IGede Miarta &copy;2019. All Rights Reserved</p>
                             <p>Made with ♥</p>
                         </div>
@@ -228,16 +256,16 @@
             </div>
         </div>
 
+
     </div>
     <!-- End Content -->
-
     <!-- Cursor -->
     <div class="cursor1" id="cursor1"></div>
     <div class="cursor" id="cursor"></div>
 
     <script src="assets/js/plugin.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/text.js"></script>
+    <script src="assets/js/work-details.js"></script>
 </body>
 
 </html>
